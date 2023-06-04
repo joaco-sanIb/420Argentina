@@ -1,0 +1,27 @@
+.DocBox{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+
+    width:90%;
+    margin-top: 10px;
+
+    border-radius: 5px;
+}
+
+.ImageC{
+    margin: 10px;
+    display: flex;
+    height: 100px;
+}
+
+.TextC{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width:100%;
+    margin:10px;
+    margin-right: 20%;
+}

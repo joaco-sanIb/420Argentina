@@ -1,0 +1,46 @@
+.ylist{
+    list-style-type:none;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 0%;
+    
+}
+.xlist{
+    list-style-type:none;
+    display:flex;
+    flex-direction: row;
+    padding-left: 10;
+ 
+    
+}
+
+.xComponent{
+    margin-left: 10px;
+    display: flex;
+    width: fit-content;
+}
+
+.yComponent{
+    display:flex;
+
+}
+.Column{
+    padding: 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+ 
+}
+
+@media only screen and (max-width: 600px) {
+    .xComponent {
+        margin: .1;
+        font-size: 10px;
+        padding-left: 0;
+    }
+    .xlist{
+        padding: 0;
+    }
+}
